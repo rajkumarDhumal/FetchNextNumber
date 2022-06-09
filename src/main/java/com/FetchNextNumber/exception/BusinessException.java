@@ -1,5 +1,8 @@
 package com.FetchNextNumber.exception;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class BusinessException extends RuntimeException {
 
 	/**
